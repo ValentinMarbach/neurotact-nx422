@@ -27,12 +27,12 @@ _Updated 2026-11-24 by `tools/progress.py` — █ done ▒ in progress · missi
 ➡️ What is missing, ranked: [`STATUS.md`](STATUS.md) · Choices and open conflicts: [`DECISIONS.md`](DECISIONS.md) · Task board: GitHub **Projects** tab
 
 ## Team
-| Person | Role (to confirm) | Owns | Page |
-|---|---|---|---|
-| Valentin Marbach | Neuroscience / biology | `01_application/` | [people/valentin](people/valentin/) |
-| Defne Kaymak | Materials, fabrication, surgery | `02_interface/`, bonding/package | [people/defne](people/defne/) |
-| Alae Messaoudi | Computation (decoder, encoder, recalibration) | `03_electronics/on-chip-ai/` | [people/alae](people/alae/) |
-| Heliya Shakeri | Electronics, power, wireless link | `03_electronics/`, power in `04_integration/` | [people/heliya](people/heliya/) |
+| Person | GitHub | Role (to confirm) | Owns | Page |
+|---|---|---|---|---|
+| Valentin Marbach | `@ValentinMarbach` | Neuroscience / biology | `01_application/` | [people/valentin](people/valentin/) |
+| Defne Kaymak | `@defnekaymak` | Materials, fabrication, surgery | `02_interface/`, bonding/package | [people/defne](people/defne/) |
+| Alae Messaoudi | `@alaaae` | Computation (decoder, encoder, recalibration) | `03_electronics/on-chip-ai/` | [people/alae](people/alae/) |
+| Heliya Shakeri | `_tbd_` | Electronics, power, wireless link | `03_electronics/`, power in `04_integration/` | [people/heliya](people/heliya/) |
 
 ## Map
 ```
