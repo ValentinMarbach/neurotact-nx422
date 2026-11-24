@@ -1,0 +1,66 @@
+\documentclass[11pt]{article}
+\usepackage[english]{babel}
+\usepackage[letterpaper,top=2cm,bottom=1.5cm,left=1.8cm,right=1.8cm,marginparwidth=1.75cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{siunitx}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\singlespacing
+\title{NAME OF THE DEVICE: Intracortical Microstimulation of Somatosensory Cortex for Artificial Tactile Feedback}
+\author{Defne Kaymak \and Samin Mahdipour \and Valentin Marbach \and Alae Messaoudi \and Heliya Shakeri}
+
+
+ 
+ 
+\begin{document}
+\maketitle
+ 
+\section*{1. Application and target tissue}
+People with tetraplegia or high-level upper-limb loss can control robotic or bionic hands through brain--computer interfaces (BCIs), but without touch they rely on vision alone, which makes grasping slow and clumsy~\cite{bensmaia2014,clement2011}. Intracortical microstimulation (ICMS) of the primary somatosensory cortex (S1) evokes tactile sensations that are felt on specific parts of the hand~\cite{flesher2016}, and adding this feedback halved task times with a brain-controlled robotic arm~\cite{flesher2021}. \textbf{Target:} the hand representation of S1 in the postcentral gyrus, i.e.\ Brodmann area~1 on the crown and area~3b on the posterior bank of the central sulcus. Area~3b is the main cutaneous (touch) area but is out of reach of current arrays.
+ 
+\section*{2. State of the art}
+All human ICMS-for-touch studies use \textbf{Utah arrays}: rigid silicon arrays of \SI{1.5}{mm} shanks at \SI{400}{\micro m} pitch with sputtered iridium oxide (SIROF) tips, implanted in area~1 and driven by an external, rack-mounted stimulator through a skull-mounted connector~\cite{flesher2016,hughes2021}. Typical pulses are cathodic-first biphasic, \SIrange{20}{100}{\micro A}, \SI{200}{\micro s} per phase, \SIrange{50}{300}{Hz}. These systems have been used safely for over 1500 days~\cite{hughes2021}, and recent work shows that multi-electrode, biomimetic and spatiotemporally patterned ICMS gives more precise, natural sensations, including edges and motion~\cite{greenspon2023,greenspon2025,valle2025}. \textbf{Limitations:} (i) the rigid silicon causes chronic tissue reactions and threshold drift; (ii) only area~1 can be reached; (iii) sparse, large sites limit spatial resolution; (iv) stimulators have few independent current sources, which limits multi-channel patterns; (v) stimulation parameters are hand-tuned and recalibrated manually.
+ 
+\section*{3. Device concept and working principle}
+NeuroTact is a bidirectional, closed-loop S1 interface made of three parts. The first is a soft penetrating array of ultraflexible polyimide shanks, about \SI{10}{\micro m} $\times$ \SI{50}{\micro m} in cross-section and up to \SI{4}{mm} long, placed near the sulcal lip so that they reach both area~1 and area~3b. The shanks are inserted with a dissolvable stiffener that disappears within hours, and each shank carries small stimulation and recording sites of about \SI{1000}{\micro m^2}. The second part is a low-power stimulation and recording ASIC with independent, charge-balanced current drivers for simultaneous multi-channel ICMS, together with low-noise recording channels that blank out stimulation artifacts~\cite{zhou2019}. The third part is an on-device AI encoder: a small neural network on the chip that turns force and contact signals from the bionic hand's sensors into biomimetic multi-electrode pulse trains, trained on simulated touch-nerve responses from TouchSim~\cite{saal2017}.
+ 
+The recording channels close the loop by measuring the cortical response that each stimulus evokes. An adaptive algorithm uses these responses, together with occasional reports from the user, to correct each electrode's current as its threshold drifts. This keeps sensations stable over months without manual recalibration.
+ 
+\section*{4. Novelty compared with the state of the art}
+NeuroTact improves on current systems in three ways. In terms of materials and geometry, the soft polyimide array replaces rigid silicon; its lower stiffness should reduce scarring and lower stimulation thresholds~\cite{lycke2023}, its longer shanks give the first access to area~3b, and its denser sites improve spatial resolution. In terms of electronics, independent current sources on every channel make possible the multi-electrode and patterned stimulation that recent human studies show feels more natural~\cite{greenspon2025,valle2025}, which current Utah-based setups can only deliver with an external, rack-mounted stimulator. Finally, in terms of on-device intelligence, a learned biomimetic encoder replaces the usual linear mapping from force to current amplitude, and self-calibration replaces manual tuning; both rely on the closed loop between stimulation and recording.
+ 
+\section*{5. Materials and fabrication plan}
+SIROF, with a charge-injection capacity of about \SIrange{1}{5}{mC/cm^2}~\cite{cogan2008}, is the baseline electrode coating, while PEDOT:PSS or nanoporous graphene~\cite{viana2024} is the alternative for small, high-capacity sites. As a safety check, thresholds on flexible probes are expected to be well below \SI{30}{\micro A}~\cite{lycke2023}. A \SI{30}{\micro A}, \SI{200}{\micro s} pulse delivers \SI{6}{nC} per phase, which on a \SI{1000}{\micro m^2} site corresponds to \SI{0.6}{mC/cm^2}: within SIROF capacity and far below the Shannon damage limit ($k \approx 0.6 \ll 1.85$)~\cite{shannon1992}.
+ 
+The array will be made in a cleanroom on a silicon carrier wafer. A sacrificial release layer is spun first, followed by a bottom polyimide layer of about \SI{5}{\micro m} that is then cured. Ti/Pt tracks and sites (\SI{20}{nm}/\SI{200}{nm}) are patterned by photolithography and lift-off, and a top polyimide layer of about \SI{5}{\micro m} is spun and cured over them. The sites and contact pads are opened by O$_2$ reactive-ion etching, and about \SI{300}{nm} of SIROF is sputtered onto the sites, again patterned by lift-off. The shank outlines are then etched, the devices are released from the wafer, and a dissolvable PEG or silk stiffener is moulded onto the shanks.
+ 
+For integration, the array is made in one piece with a flexible polyimide ribbon cable that is flip-chip bonded to the ASIC. The ASIC sits in a hermetic hub on the skull and is powered and read out wirelessly by inductive coupling. The exact electrode count, ASIC channel count and power budget will be set in the next phase.
+ 
+\begin{thebibliography}{99}\setlength{\itemsep}{0pt}\small
+\bibitem{bensmaia2014} S.~J. Bensmaia and L.~E. Miller, ``Restoring sensorimotor function through intracortical interfaces: progress and looming challenges,'' \emph{Nat. Rev. Neurosci.} 15, 313--325 (2014).
+\bibitem{clement2011} R.~G.~E. Clement, K.~E. Bugler, C.~W. Oliver, ``Bionic prosthetic hands: a review of present technology and future aspirations,'' \emph{The Surgeon} 9, 336--340 (2011).
+\bibitem{flesher2016} S.~N. Flesher \emph{et al.}, ``Intracortical microstimulation of human somatosensory cortex,'' \emph{Sci. Transl. Med.} 8, 361ra141 (2016).
+\bibitem{flesher2021} S.~N. Flesher \emph{et al.}, ``A brain-computer interface that evokes tactile sensations improves robotic arm control,'' \emph{Science} 372, 831--836 (2021). doi:10.1126/science.abd0380
+\bibitem{hughes2021} C.~L. Hughes \emph{et al.}, ``Neural stimulation and recording performance in human sensorimotor cortex over 1500 days,'' \emph{J. Neural Eng.} 18 (2021).
+\bibitem{greenspon2023} C.~M. Greenspon \emph{et al.}, ``Biomimetic multi-channel microstimulation of somatosensory cortex conveys high resolution force feedback for bionic hands,'' \emph{bioRxiv} (2023). doi:10.1101/2023.02.18.528972
+\bibitem{greenspon2025} C.~M. Greenspon \emph{et al.}, ``Evoking stable and precise tactile sensations via multi-electrode intracortical microstimulation of the somatosensory cortex,'' \emph{Nat. Biomed. Eng.} (2025).
+\bibitem{valle2025} G.~Valle \emph{et al.}, ``Tactile edges and motion via patterned microstimulation of the human somatosensory cortex,'' \emph{Science} (2025). doi:10.1126/science.adq5978
+\bibitem{cogan2008} S.~F. Cogan, ``Neural stimulation and recording electrodes,'' \emph{Annu. Rev. Biomed. Eng.} 10, 275--309 (2008). doi:10.1146/annurev.bioeng.10.061807.160518
+\bibitem{lycke2023} R.~Lycke \emph{et al.}, ``Low-threshold, high-resolution, chronically stable intracortical microstimulation by ultraflexible electrodes,'' \emph{Cell Reports} (2023).
+\bibitem{viana2024} D.~Viana \emph{et al.}, ``Nanoporous graphene-based thin-film microelectrodes for in vivo high-resolution neural recording and stimulation,'' \emph{Nat. Nanotechnol.} (2024).
+\bibitem{zhou2019} A.~Zhou \emph{et al.}, ``A wireless and artefact-free 128-channel neuromodulation device for closed-loop stimulation and recording in non-human primates,'' \emph{Nat. Biomed. Eng.} 3, 15--26 (2019). doi:10.1038/s41551-018-0323-x
+\bibitem{saal2017} H.~P. Saal \emph{et al.}, ``Simulating tactile signals from the whole hand with millisecond precision,'' \emph{PNAS} 114, E5693--E5702 (2017).
+\bibitem{shannon1992} R.~V. Shannon, ``A model of safe levels for electrical stimulation,'' \emph{IEEE Trans. Biomed. Eng.} 39, 424--426 (1992).
+\end{thebibliography}
+ 
+\end{document}
+ 
+ 

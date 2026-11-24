@@ -1,0 +1,13 @@
+.DS_Store
+.claude/settings.local.json
+.claude/.cc-writes/
+__pycache__/
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+~$*

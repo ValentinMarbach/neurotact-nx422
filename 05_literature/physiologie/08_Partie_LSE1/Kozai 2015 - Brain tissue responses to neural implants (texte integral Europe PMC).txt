@@ -1,0 +1,669 @@
+Source: Europe PMC PMC4304489
+
+Brain Tissue Responses to Neural Implants Impact Signal Sensitivity and Intervention Strategies
+
+Implantable biosensors are valuable scientific tools for basic neuroscience research and clinical applications. Neurotechnologies provide direct readouts of neurological signal and neurochemical processes. These tools are generally most valuable when performance capacities extend over months and years to facilitate the study of memory, plasticity, and behavior or to monitor patients’ conditions. These needs have generated a variety of device designs from microelectrodes for fast scan cyclic voltammetry (FSCV) and electrophysiology to microdialysis probes for sampling and detecting various neurochemicals. Regardless of the technology used, the breaching of the blood–brain barrier (BBB) to insert devices triggers a cascade of biochemical pathways resulting in complex molecular and cellular responses to implanted devices. Molecular and cellular changes in the microenvironment surrounding an implant include the introduction of mechanical strain, activation of glial cells, loss of perfusion, secondary metabolic injury, and neuronal degeneration. Changes to the tissue microenvironment surrounding the device can dramatically impact electrochemical and electrophysiological signal sensitivity and stability over time. This review summarizes the magnitude, variability, and time course of the dynamic molecular and cellular level neural tissue responses induced by state-of-the-art implantable devices. Studies show that insertion injuries and foreign body response can impact signal quality across all implanted central nervous system (CNS) sensors to varying degrees over both acute (seconds to minutes) and chronic periods (weeks to months). Understanding the underlying biological processes behind the brain tissue response to the devices at the cellular and molecular level leads to a variety of intervention strategies for improving signal sensitivity and longevity.
+
+
+## Introduction to Implantable CNS Biosensors
+
+A broad variety of implantable electrical and chemical recording devices have made innumerable and seminal contributions to our current understanding of normal brain function and the pathology of brain disorders and injuries. This increasing knowledge further guides the development of therapeutic strategies ranging from neuropharmacological interventions to brain–machine interface technologies. These devices include microdialysis sampling probes and carbon fiber/microwire-based or microfabrication-based electrodes for amperometry, voltammetry, and electrophysiological recording, which offer the ability for basic and clinical scientists to record chemical and electrophysiological signals directly from the living, intact brain of animal and human subjects.
+
+While the power of implantable devices to provide otherwise inaccessible information is unquestionably invaluable,1−3 it remains true that their physical insertion into brain tissue causes local injury, which in turn initiates a progressive inflammatory tissue response. This tissue response alters the physiochemical environment and the function of the tissue from which chemical and electrophysiological signals are obtained, leading eventually to sensing inaccuracy, instability, and failure.4−7 Since these implantable sensors are well positioned to further advance our general understanding of brain function, especially for clinical and longitudinal applications, there exists an urgent need to understand the tissue response and its impact on the outcome of neurochemical and physiological recordings.8 Such understanding is also crucial to the appropriate interpretation of in vivo recordings and to establishing the capabilities and limitations of the devices. The ultimate objective, however, is to provide strategies to mitigate the penetration injury and tissue response in order to improve and refine the technology.
+
+The majority of the existing knowledge of the tissue response to indwelling brain implants has emerged from the study of neuron recording devices, which can in some cases function successfully in the brain to record neural activity for weeks or months.3,7,9−11 The objective of this review is to bring the deep pool of knowledge gained from these investigations to bear on the technologies for intracranial chemical monitoring, where much less is known about the impact of the tissue response on their measurements. Understanding the cellular and molecular mechanisms responsible for the tissue response to these devices is a prerequisite for developing intervention and mitigation strategies that improve the accuracy, reliability, safety, and longevity of chemical CNS measurements.
+
+
+## Classes of Implantable CNS Biosensors
+
+Many implantable electrical and chemical recording devices have been developed for a range of specific applications. Microdialysis, a commonly used technique to sample extracellular brain fluid (ECF), is broadly used in the study of neurotransmitters in the brain. This long-standing technique operates on the principle of diffusion, where small molecules move across a concentration gradient from the extracellular space into the dialysis fluid inside the microdialysis probe (cross-sectional area 30000–70000 μm2). The sampled dialysate is collected and subsequently analyzed by high performance liquid chromatography (HPLC), capillary electrophoresis (CE), or mass spectrometry. Fast-scan cyclic voltammetry (FSCV) in combination with carbon fiber microelectrodes (cross-sectional area 20–60 μm2) is another technique used to monitor neurotransmitters in vivo. In FSCV, a triangular waveform potential is applied to a carbon fiber microelectrode to oxidize or reduce electroactive species, which generates a current response. Electroactive species can be identified through their characteristic redox potentials. This technique allows for a high degree of temporal and spatial resolution. Microfabricated electrochemical sensors (cross-sectional area 3000–15000 μm2) further add functionality to simultaneous multichannel sampling with regularly spaced electroactive sites. These sites can further be functionalized, for example, by using enzymatic coatings, to convert neutrally charged neurochemicals into electroactive species, which can then be electrochemically detected. Furthermore, microfabricated multichannel arrays with specific site coatings have enabled simultaneous detection of multiple chemical species and electrophysiological recordings at high spatiotemporal resolutions.12
+
+
+## Tissue Response Overview
+
+The insertion of devices into the brain immediately activates nearby microglia cells (within ∼130 μm), which extend processes toward the implant surface13 (Figures 1 and 2a,b). Within ∼30 min, these activated microglial cells start encapsulating the implant with lamellipodia13 (Figure 2). At this stage, microglia may not be able to fully encapsulate large devices with lamellipodia acutely without additional monocyte migration. Small nanoporous sensor structures may be more susceptible to lamellipodia encapsulation related signal attenuation (Figure 2). It then takes approximately 12 h for microglia to transition into a motile phase and begin moving their cell bodies toward the injury site13,14 (Figure 1b). By 24 h after device implantation, the device becomes surrounded by activated microglial cell bodies, which form a thin cellular sheath encapsulating the device that can limit ionic exchange with the electrode surface.15,16 During this first week, astrocytes are maximally activated and then form a compact sheath around the activated microglia approximately 2–3 weeks later.15−18 Electrochemical impedance magnitude has often been used to evaluate encapsulation longitudinally in vivo since impedance increases with the increase of glial encapsulation19 (Figure 1c). This phenomenon may be explained by the fact that glial cells form tight junctions with each other to create a glial sheath, which forms a diffusion barrier that limits transmission of ions as well as overflow of neurotransmitters through the extracellular space.20 In general, this increase in impedance is observed over the first 2 weeks following insertion, before stabilizing.21 Over the first 4 weeks, neuronal cell death and degeneration of neurites can occur within 150 μm of the device.15,18,22
+
+Cartoon of tissue reaction. (a) Normal tissue prior to probe insertion. (b) Acute injury caused by the probe insertion including increase in tissue strain from volumetric tissue displacement, mechanical tear of cells and the extracellular matrix, vasogenic edema, BBB rupture, steric blockade of signaling molecules, microglial activation, and loss of perfusion. (c) Chronic glial encapsulation and neurodegeneration of the probe instigated by chronic BBB reinjury and inflammation. The glial sheath is made of multiple layers of activated microglia, macrophage, and astrocytes that form an ionic barrier through tight junctions with neighboring cells. While tissue regeneration can occur, the glial scar prevents neuronal cell bodies and neural filament from reoccupying regions within the glial scar.
+
+Cartoon of tissue reaction. (a) Normal tissue prior to probe insertion. (b) Acute injury caused by the probe insertion including increase in tissue strain from volumetric tissue displacement, mechanical tear of cells and the extracellular matrix, vasogenic edema, BBB rupture, steric blockade of signaling molecules, microglial activation, and loss of perfusion. (c) Chronic glial encapsulation and neurodegeneration of the probe instigated by chronic BBB reinjury and inflammation. The glial sheath is made of multiple layers of activated microglia, macrophage, and astrocytes that form an ionic barrier through tight junctions with neighboring cells. While tissue regeneration can occur, the glial scar prevents neuronal cell bodies and neural filament from reoccupying regions within the glial scar.
+
+Microglia activation hours after electrode implantation. Microglia (green), BBB (red), and devices (gray). (a–c) Z-stack projections, as well as front and side view reconstructions of the dashed boxed regions, are shown for parylene insulated carbon fiber electrodes (a), planar silicon electrodes (b), and microdialysis probes (c). (d) Ramified (normal) microglia show radial projections or processes indicated by blue traces. (e) Microglia adjacent to a microdiaylsis probe edge (gray), can be seen retracting processes away from the probe, and extending processes toward the probe surface. Panel b reproduced from ref (41) by permission of IOP Publishing (Copyright 2010 IOP Publishing). All rights reserved.
+
+Microglia activation hours after electrode implantation. Microglia (green), BBB (red), and devices (gray). (a–c) Z-stack projections, as well as front and side view reconstructions of the dashed boxed regions, are shown for parylene insulated carbon fiber electrodes (a), planar silicon electrodes (b), and microdialysis probes (c). (d) Ramified (normal) microglia show radial projections or processes indicated by blue traces. (e) Microglia adjacent to a microdiaylsis probe edge (gray), can be seen retracting processes away from the probe, and extending processes toward the probe surface. Panel b reproduced from ref (41) by permission of IOP Publishing (Copyright 2010 IOP Publishing). All rights reserved.
+
+Similarly to microelectrodes, the penetration of the microdialysis probe initiates a foreign body tissue response (Figures 1b and 2c–e). This response also involves a cascade of events, such as activation and infiltration of inflammatory cells (neutrophils, monocytes, macrophages, etc.).23,24 In particular, macrophages result in cell activation and fibrin deposition on the device. Over days, this can lead to “tissue encapsulation” of the implant, which affects the diffusion of small molecules (i.e., neurotransmitters) to the biosensor surface20 (Fig. 1c). Recent studies have shown that the insertion injury induces rapid gliosis.13,25 Within 24 h of insertion, glial processes invade the implant site and begin to engulf the device.26 Therefore, neurochemical sampling is derived from brain tissue environments undergoing a reactive tissue response and is unlikely to resemble a normal brain tissue environment. Still, these devices have greatly improved our understanding of brain function.1−3 Further improving signal sensitivity and longevity of these devices will require a thorough understanding of the underlying biological processes behind the brain tissue response to the device at the cellular and molecular level.4−6
+
+
+## Roles of Non-neuronal Cells in Brain Function
+
+There has been increasing evidence that glial cells are not quiescent during normal brain activity. In fact, non-neuronal cells play a critical role in modulating synaptic transmission and plasticity (see Perea and Araque 2010 for review).27,28 More recently, it was demonstrated that astrocytic vesicular release is required for normal cortical gamma oscillations and novel object recognition behavior.29 In addition, astrocytes have been shown to be activated by norepinephrine to enhance the astroglial network response to local neuronal network activity.30 Another study showed that the larger and more complex human astrocytes in immunodeficient mice enhanced long-term potentiation, activity-dependent plasticity, and learning.31 Microglial cells have also been demonstrated to interact with dendritic spines and engulf synapses during perceptional learning.32−34 Altogether, the impact of the immune response to foreign bodies on brain activity is not well understood, and it may alter nervous function, especially within the reactive glial sheath area. Its impact may need to be considered in the interpretation of the collected data from both acute and longitudinal experiments (Table 1).
+
+
+## Variability: Signal Reliability and Biological Sources of Variability
+
+Although groups strive to minimize a wide range of sources of variability ranging from device microfabrication to implantation strategies, large performance variability has been observed in both acute and longitudinal experiments.35−37 For example, eight identical electrode arrays implanted into the same region of different animals have shown that half the arrays continue to record neural signals for >14 weeks while in the other half of the arrays, single-unit yield rapidly degraded and ultimately failed over the same timescale. Histological variability has also been observed. This variability has even been observed between two adjacent identical shanks implanted into the same animal37 and over different depths of the same device shank.38 While it is difficult to determine distinct sources of variability, it is generally accepted that much of the variability correlates with tissue damage.
+
+A study using implantable hydrous iridium oxide microelectrodes for potentiometric recording of extracellular pH highlighted the variability in the local pH around the electrode along with histological correlates.35,39 When these pH sensing probes were implanted into the brain, a wide variability of pH level, pattern (biphasic alkaline-acidic and triphasic acidic-alkaline-acidic), depth, and duration of acidosis was observed. In particular, higher levels of acidosis were often associated with greater levels of blood cells in the brain parenchyma when examined with post-mortem histology.35 In another study, aimed at uncovering the time course of insertion-related bleeding and coagulation, electrodes were implanted into the cortex of rats at varying time intervals (−120, −90, −60, −30, −15, and 0 min) using a micromanipulator and linear motor with an insertion speed of 2 mm/s.40 The results showed dramatic variability in BBB leakage that washed out any trend40 (Figure 3), suggesting that a separate underlying cause was responsible for the large inter- and intra-animal variability.
+
+BBB permeability following electrode insertion.40 Six microelectrodes were implanted into the cortex at −120, −90, −60, −30, −15, and 0 min prior to tail vein injection of 10% sodium fluorescein, 0.6 mL/kg at ∼0.45 mL/min. Animals were immediately perfused with saline and 4% paraformaldehyde (4–7 min). Bleeding was quantified as the mean intensity within 50 μm of insertion site divided by the mean background intensity of a distant location. Error bars indicate standard error (N = 14). Large error bars indicate large variability.
+
+BBB permeability following electrode insertion.40 Six microelectrodes were implanted into the cortex at −120, −90, −60, −30, −15, and 0 min prior to tail vein injection of 10% sodium fluorescein, 0.6 mL/kg at ∼0.45 mL/min. Animals were immediately perfused with saline and 4% paraformaldehyde (4–7 min). Bleeding was quantified as the mean intensity within 50 μm of insertion site divided by the mean background intensity of a distant location. Error bars indicate standard error (N = 14). Large error bars indicate large variability.
+
+These combined works motivated the examination of the neurovascular architecture and impact of BBB injury during insertion. In 2008, an in vivo two-photon microscopy study was initiated to map the cortical vascular network prior to device insertion41,42 (Figure 4). These 3D maps highlighted several critical features of the cerebral vascular network that need to be considered prior to device insertion: (i) on the surface of the brain, major arteries and veins run parallel with the pia matter; (ii) in general, these major vessels penetrate into the cortex along the normal axis to the brain surface; (iii) majors vessels can slightly deviate from the penetration point as they project deeper into the brain; (iv) like fingerprints, the details of the vascular architecture differ between individuals. Interestingly, this study showed that insertion of devices through a single major penetrating cortical artery can dramatically increase bleeding in the parenchyma compared with penetrating through many small capillaries41 (Figure 4). Although BBB disruption due to insertion injury of capillaries is unavoidable, avoiding large arteries has been shown to dramatically reduce bleeding. At chronic time points, the proximity of carbon fiber biosensors to the nearest major blood vessel correlated with astroglial activation (Figure 5a,b). Therefore, blind insertions of devices, even when avoiding surface vasculature, result in large variability of BBB injury. It was concluded that (i) only avoiding major surface blood vessels can still result in penetration through a major blood vessel deeper in the brain and (ii) one may avoid penetrating through major blood vessels deeper in the brain by mapping the vasculature via advanced imaging technology and carefully selecting the insertion angle. While recent electrode longevity studies have not established a cause and effect relationship, they have anecdotally supported the relationship of BBB leakage and device failure.43−45
+
+Imaging of cortical vasculature in a single mouse before device insertion (A–C, G, and I) and after insertion (D), 30 min incubation, and device explantation (E, F, H, and J). Blue indicates device insertion sites for avoiding major vessels and only disrupting capillaries. Yellow indicates device insertion sites for disrupting a major blood vessel not visible from the surface. (B, C, E, F) Capillaries (<5 μm diameter) are indicated as white. Major vessels (>5 μm diameter) are highlighted: surface vessels (green) and vessels below the pia (red). (A, B, D, E) Image of the surface vasculature. (C, F) Collapsed image of neurovasculature 0–500 μm for images B and E), respectively. (G–J) Three-dimensional reconstruction of vasculature in ImageJ to a depth into the image of 150 μm surrounding the implanted device. Dark regions devoid of capillaries indicate bleeding or loss of perfusion from neurovascular damage. Scale bars indicate 100 μm. Note the loss of signal was greater when major vasculature was targeted (H) compared with when the vasculature was avoided (J). Reproduced from ref (41) by permission of IOP Publishing. Copyright 2010 IOP Publishing. All rights reserved.
+
+Imaging of cortical vasculature in a single mouse before device insertion (A–C, G, and I) and after insertion (D), 30 min incubation, and device explantation (E, F, H, and J). Blue indicates device insertion sites for avoiding major vessels and only disrupting capillaries. Yellow indicates device insertion sites for disrupting a major blood vessel not visible from the surface. (B, C, E, F) Capillaries (<5 μm diameter) are indicated as white. Major vessels (>5 μm diameter) are highlighted: surface vessels (green) and vessels below the pia (red). (A, B, D, E) Image of the surface vasculature. (C, F) Collapsed image of neurovasculature 0–500 μm for images B and E), respectively. (G–J) Three-dimensional reconstruction of vasculature in ImageJ to a depth into the image of 150 μm surrounding the implanted device. Dark regions devoid of capillaries indicate bleeding or loss of perfusion from neurovascular damage. Scale bars indicate 100 μm. Note the loss of signal was greater when major vasculature was targeted (H) compared with when the vasculature was avoided (J). Reproduced from ref (41) by permission of IOP Publishing. Copyright 2010 IOP Publishing. All rights reserved.
+
+In vivo challenges. (a) Astroglial reactivity (GFAP) to chronically implanted devices (white arrow) increases with respect to implantation proximity to major vasculature (red arrow; EBA with >25 μm diameters). Scale bar indicates 100 μm. This suggests that microstructures in the brain may be associated with chronic performance (b). Decreasing the implant’s profile as well as avoiding key vascular microstructures during insertion may be critical in targeting charge transfer coupling with specific neuron(s) or subcellular structures. Vasculature changes; 100 μm thick Z-stack projection of intravasculature dye labeled BBB. Blue outline indicates device and recording sites. (c) One hour postimplant. Green up arrows and yellow down arrows indicate perfused capillaries. Yellow right square bracket indicates diameter of perfused capillary. (d) Seven hours postimplant. While vasculature can be severed during insertion, additional blood flow damage can occur in unsevered blood vessels as they shrink (yellow down arrows) and lose the ability to perfuse (green up arrows) in the first few hours. Yellow left square bracket indicates diameter of constricted capillary. Loss of perfusion can be visualized as dark bands in fluorescently labeled vessels where blood cells have stopped flowing. Scale bar indicates 100 μm. Panels a and b reproduced from ref (17) with permission from Nature Publishing Group (Copyright 2012). Panels c and d reproduced from ref (13) by permission of IOP Publishing. Copyright 2012 IOP Publishing. All rights reserved.
+
+In vivo challenges. (a) Astroglial reactivity (GFAP) to chronically implanted devices (white arrow) increases with respect to implantation proximity to major vasculature (red arrow; EBA with >25 μm diameters). Scale bar indicates 100 μm. This suggests that microstructures in the brain may be associated with chronic performance (b). Decreasing the implant’s profile as well as avoiding key vascular microstructures during insertion may be critical in targeting charge transfer coupling with specific neuron(s) or subcellular structures. Vasculature changes; 100 μm thick Z-stack projection of intravasculature dye labeled BBB. Blue outline indicates device and recording sites. (c) One hour postimplant. Green up arrows and yellow down arrows indicate perfused capillaries. Yellow right square bracket indicates diameter of perfused capillary. (d) Seven hours postimplant. While vasculature can be severed during insertion, additional blood flow damage can occur in unsevered blood vessels as they shrink (yellow down arrows) and lose the ability to perfuse (green up arrows) in the first few hours. Yellow left square bracket indicates diameter of constricted capillary. Loss of perfusion can be visualized as dark bands in fluorescently labeled vessels where blood cells have stopped flowing. Scale bar indicates 100 μm. Panels a and b reproduced from ref (17) with permission from Nature Publishing Group (Copyright 2012). Panels c and d reproduced from ref (13) by permission of IOP Publishing. Copyright 2012 IOP Publishing. All rights reserved.
+
+
+## Acute Inflammation Cascade
+
+
+## Insertion Injury Induced Biochemical Pathways
+
+Insertion of implantable devices, regardless of technology, inevitably tears through extracellular matrix, disrupts the BBB, punctures cell membranes, and even ruptures distant cells and vasculature especially when insertion related dimpling is observed.41,46,47 In order to understand how the variability in injury impacts inconsistency of sensor performance, it is necessary to examine the inflammation biochemical cascades initiated by device insertion. The initial injury can lead to increased inflammation through a number of factors (Figure 1): (i) rupturing the BBB; (ii) reducing blood flow, oxygen perfusion, and neurotoxic waste removal, which in turn can cause ischemia/hypoxia; (iii) increasing pressure and mechanical strain from hemorrhage, vasogenic edema, and accommodation of the device volume; (iv) biofouling of surfaces and accumulation of inflammatory cytokines; (v) steric inhibition of pro-survival signaling from the implant substrate. Several of these are discussed in detail below.
+
+
+## BBB Rupture
+
+The disruption of the BBB leads to the deposition of plasma proteins foreign to the CNS including albumin (40 mg/mL or ∼55%), globulins (10 mg/mL or ∼38%), fibrin/fibrinogen (3 mg/mL or ∼7%), thrombin, plasmin, complement, and red blood cells (hemosiderin).48−58 Increases of hemoglobin (from red blood cell breakdown) in the brain lead to increases of reactive oxygen species (ROS) and reactive nitrogen species (RNS), which can contribute to secondary injury by oxidizing cell lipids and proteins.59 For example, ROS downregulate tight junction proteins, which leads to increased BBB permeability.60 In parallel, the resulting oxidative stress leads to the activation and upregulation of pro-inflammatory cytokines such as interleukin (IL)-1β.60
+
+In particular, albumin has been shown to bind to transforming growth factor-β receptors (TGFβR) in astrocytes,61 leading to upregulation of myosin light chain kinase (MLCK) immunoreactivity.62 MLCK phosphorylates myosin light chain (MLC), thereby inducing contractions and weakening endothelial cell–cell adhesion,63,64 in turn propagating additional BBB leakage. In addition, albumin has been shown to activate astrocytes and microglia through the mitogen-activated protein kinase pathway (MAPK) resulting in increased levels of IL-1β and nitric oxide as well as CX3CL1 in astrocytes.65 Furthermore, albumin has been shown to reversibly increase calcium activity in glial cells and has been shown to mildly affect neurons over short periods of time by inducing epileptic firing patterns in culture.66,67
+
+Like albumin, autologous immunoglobulin G (IgG) is not found in the brain parenchyma under normal conditions. IgG is a convenient marker for BBB integrity in immunohistochemistry because it only requires antihost secondary antibodies; therefore it does not create additional concerns of cross-reactivity with other primary antibodies when conducting multichannel labeling. It should be noted, however, that IgG that enters the parenchyma of the CNS is sequestered by astroglia and microglia where they have been shown to remain for at least 9 months.68−70 In addition, IgG can also be carried into the CNS by blood borne macrophages.15 Therefore, the presence of IgG in the tissue is not necessarily indicative of continuous IgG leakage, because the IgG detected may be from the initial surgical implantation. Furthermore, pharmaceutically increasing BBB leakage throughout the CNS did not result in the activation of astrocytes or microglia, indicating that IgG is not sufficient for inducing a reactive tissue response.68
+
+Fibrinogen, another plasma protein, is a high affinity ligand for macrophage-1 antigen (Mac-1) on microglia cells in the CNS via an independent pathway from Toll-like receptor 4.71 In the CNS, fibrinogen is polymerized into fibrin in the perivascular space leading to activation of microglia cells and initiation of phagocytosis. This has been well characterized in multiple sclerosis as a major contributing factor to demyelination. Depletion of fibrin has been demonstrated to inhibit microglial activation and attenuate inflammatory demyelination of neurons.71
+
+Lastly, metal, polymers, silicon, and silica are relatively hydrophobic.72 In an aqueous environment, the hydrophobicity makes these surfaces susceptible to protein adsorption. Following the BBB disruption, pro-inflammatory molecules and cytokines can nonspecifically adsorb onto the implant surface.17 Once adsorbed, these molecules may remain on the surface of the device perpetuating an inflammation response into a chronic tissue response.73 This can lead to increased cellular encapsulation and decreased signal sensitivity over time following device insertion.
+
+Overall, disruption of the BBB and insertion of devices have been shown to immediately activate nearby microglia.13 Glial cells persistently produce high levels of pro-inflammatory cytokines (interleukin-1 and TNFα) and chemokines (such as monocyte chemotactic protein-1, MCP-1) for the duration of the implantation, which leads to neuronal degeneration and demyelination.74−81 In addition, microglia-initiated inflammation cascades result in the progression of the glial sheath, which forms an ionic and neurotransmitter barrier between electrodes and neurons, which reduces signal quality.82,83 A study examining the cytokines and soluble factors present around the implanted microelectrode arrays found elevated levels of several pro-inflammatory and neurotoxic cytokines as well as tumor necrosis factor α (TNF α). Among these, upregulation of IL-1β mRNA was the most significant across all electrode designs tested.84
+
+IL-1β is a key pro-inflammatory cytokine and plays a critical role in inflammation and apoptosis.85 Activation of Toll-like receptors or retinoic acid-inducible gene (RIG)-like receptors activate the synthesis of IL-1β precursors (pro-IL-1β), but pro-IL-1β must be cleaved and activated by caspase-1. Caspase-1 activation is controlled by inflammasomes, which are mediated by complex cytoplasmic pattern recognition receptor signaling in response to cell injury. Upregulation of IL-1β increases matrix metalloproteinase-9 (MMP-9), which is known to degrade the gap junction of BBB endothelial cells and induce BBB dysfunction.86 MMP-9 is found to be more highly expressed in the tissue near the implanted electrode compared with nonimplant control tissue.87
+
+
+## Perfusion and Blood Flow
+
+There are many consequences associated with the penetration of brain implants, some of which result from stress and strain to accommodate its volume in tissue and lead to BBB disruption. Upon systemic administration, carbidopa, a drug molecule that normally does not cross the BBB, was found in brain dialysates.88 This is evidence that the implants open the BBB. Other studies using fluorescent nanobeads to represent blood flow revealed that these beads spill out of blood vessels near implanted probes but not elsewhere in the brain, providing more direct evidence that the BBB is open.26 In this study, green fluorescent nanobeads were perfused through the bloodstream and blood vessels were labeled with anti-PECAM (PECAM is a protein, platelet endothelial cell adhesion molecule) post mortem. Diminution of blood flow to the probe site was observed, confirming a localized ischemic event. It is important to remember that this localized ischemia is on a different scale compared with middle cerebral artery occlusion, but it can still impact signal quality. Endothelial debris forming a halo of diffuse anti-PECAM labeling surrounding the tracks was also clearly evident. The anti-PECAM halo is consistent with the idea that vessels are torn and that endothelial cell debris is present at the probe track.26 This study also showed that the probe itself occludes blood flow and opens the BBB.
+
+Loss of perfusion (BBB occlusion) has also been observed in vivo in multiple adjacent capillaries surrounding an implanted device hours after insertion (Figure 5c,d). This vascular occlusion creates an ischemic microenvironment around the device.13 The loss of perfusion in the tissue microenvironment surrounding the implant has resounding implications to the health of the neural tissue and signal detected from this region.13
+
+Furthermore, pericytes are critical components of the BBB and are tightly coupled to the capillary endothelial cells. They reduce BBB permeability from periphery-derived harmful substances while allowing influx of nutrients, regulating blood flow, and clearing neurotoxic waste products.89−94 Clearance of toxic cellular byproducts is carried out through phagocytotic properties of pericytes.91,93 These cells also regulate angiogenesis through the secretion of factors (e.g., VEGF and MMPs)95−97 and secretion of essential extracellular matrix proteins (e.g., laminin).93,98 Endothelial cells play a critical role in sustaining pericytes in the adult CNS by continuous secretion of PDGF-β growth factor.89,91,99−101 In the adult CNS of mice, PDGF Receptor-β is expressed in pericytes.102 Chronic BBB breakdown is associated with dysfunction or deficiency in pericytes, which has been shown to cause CNS degeneration as previously discussed.89,91,103 In addition, CNS pericytes have been suggested to regulate T-cell entry into the brain.104 Following ischemic injury, blood-borne bone marrow progenitor cells have been shown to contribute to CNS pericytes.105−107 Interestingly, pericytes can be found at the device/tissue interface of chronic implants.21
+
+Acute and chronic pericyte loss occurs due to insertion injury. This pericyte loss reduces brain microcirculation, which causes diminished brain capillary perfusion and increases tissue hypoxia; in turn, this leads to secondary neural degeneration.89,91,108−111 Complete occlusion of a major blood vessel, such as a pial artery or vein, causes a major ischemic insult that mimics a stroke. It is interesting to note that blockage of intracortical venules might have a more detrimental effect compared with blockage of arterioles due to the network of vessels from which they supply or pool blood.112 Irreversible tissue damage due to vascular occlusion takes place several hours after onset, such that reducing tissue injury during placement of these devices is very important. In fact, arteries leak sufficient oxygen that nearby tissue is very well oxygenated and would be more protected to mild hypoxia. Hence, it may be preferable to target insertion of these devices near penetrating arteries as long as occlusion is avoided. While partial blockage of small vessels like arterioles, venules, and capillaries does not have the same ischemic impact in the short term as complete occlusion of larger arteries and veins, it does impact tissue viability in the long term. In the short term, small vascular occlusions or BBB disruption can dramatically impact the function and activity of local neural circuitry, which can alter the local sampling environment on the order of minutes and yield misleading results depending on the study.113,114 Brain tissue relies mostly on oxygen and glucose for energy, substrates that are delivered passively and actively by blood. Reductions in blood supply primarily impact the energy-generation capacity of nervous tissue by relying primarily on glycolysis. Persistent low-oxygen conditions over several days promotes angiogenesis from nearby functioning vessels to restore blood supply.115 Therefore, it is likely that in the long term (several weeks), placement of these devices using strategies that reduce blood vessel disruption will minimize undesired tissue conditions. Reduced blood flow caused by the placement of a probe or electrode will have short-term and long-term effects that need to be considered for specific experiments in obtaining meaningful measurements from them.
+
+
+## Effect of Device Volume and Stiffness on Inflammation
+
+Naturally, the size of the disrupted blood vessel is correlated to the level of hemorrhage that occurs in the brain parenchyma116 (Figure 6a,b). Intracerebral hemorrhage edema and cytotoxic swelling have been well studied in stroke, traumatic brain injury, and infections, such as meningitis and encephalitis. The increase in swelling can lead to pinching of nearby blood vessels and capillaries, which leads to loss of perfusion and secondary ischemic injury beyond the initial injury site. This increase in intracerebral pressure is further amplified when the tissue needs to accommodate the volume of the device. The larger the implanted device, the more pressure it applies to the surrounding brain tissue. Loss of perfusion around microdialysis and planar microfabricated arrays haven been observed following device insertion.13,26
+
+Device size dependent acute injury. (a, b) Comparison of acute BBB disruption caused by a single shank silicon electrode (blue arrowhead; a) and a MTE electrode (yellow arrowhead; b) during insertion into the rat cortex. (top) Differential interference contrast image of a rat motor cortex section around a MTE footprint. Scale bar = 100 μm. (middle) A BBB impermeable fluorescent dye was used to image the vasculature and bleeding around the MTE. (bottom) Overlay image. (c, d) Two photon imaging of tissue strain in vivo from a four shank Michigan Electrode Array (c) and carbon fiber microthread electrode (d). Neurons are green (Oregon Green Bapta-1 AM), while recording sites and astrocytes are red (PEDOT/PSS/Rhodamine and Sulfarhodamine101, respectively). Cyan outline highlights microthread electrode. Neurons in panel c are much more compressed and oval/elliptical than neurons in panel d, indicating increased mechanical strain from the embedded electrode volume. Panels c and d reprinted from Biomaterials(21) with permission from Elsevier.
+
+Device size dependent acute injury. (a, b) Comparison of acute BBB disruption caused by a single shank silicon electrode (blue arrowhead; a) and a MTE electrode (yellow arrowhead; b) during insertion into the rat cortex. (top) Differential interference contrast image of a rat motor cortex section around a MTE footprint. Scale bar = 100 μm. (middle) A BBB impermeable fluorescent dye was used to image the vasculature and bleeding around the MTE. (bottom) Overlay image. (c, d) Two photon imaging of tissue strain in vivo from a four shank Michigan Electrode Array (c) and carbon fiber microthread electrode (d). Neurons are green (Oregon Green Bapta-1 AM), while recording sites and astrocytes are red (PEDOT/PSS/Rhodamine and Sulfarhodamine101, respectively). Cyan outline highlights microthread electrode. Neurons in panel c are much more compressed and oval/elliptical than neurons in panel d, indicating increased mechanical strain from the embedded electrode volume. Panels c and d reprinted from Biomaterials(21) with permission from Elsevier.
+
+Penetration trauma from these devices can be diminished simply by decreasing the size of the implanted device. For illustration purposes, the small carbon fiber electrodes (cross-sectional area 20–60 μm2) are compared with large microdialysis probes (cross-sectional area 30000–70000 μm2). Carbon fibers have a roughly 1000-fold smaller total volume than microdialysis probes. In addition, carbon fibers have a 30-fold smaller diameter active recording area, have a 10-fold shorter length, and occupy roughly 10000-fold smaller sampling volume than microdialysis probes. The following calculation compares the volume of a microdialysis probe with a diameter of 220 μm and a length of 4 mm to the volume of a microelectrode with a diameter of 7 μm and an exposed electrode site length of 400 μm (these are the typical dimensions of the active area for electrodes and the sampling area for probes):
+
+The differences in the physical dimensions of these two devices lead to major differences in the extent of traumatic brain injury and tissue strain that they inflict in the tissue volume from which they sample (Figures 2a–c and 6c,d). Because carbon fiber microelectrodes are typically 5–7 μm in diameter and the interspacing of the rat vasculature of the striatum is 50–60 μm, less damaged can be observed compared with other larger probe designs. Although it is accepted that reaching equilibrium following device insertion requires at least 24 h,117,118 emerging evidence points to additional cytokine-driven stages of inflammatory tissue response over the following weeks, which greatly affects signal sensitivity of the implanted devices.
+
+While differences in device volume lead to differential tissue strains from device implantation, mechanical strain caused by mechanical mismatch between the implanted device and the brain has also been hypothesized as a source of persistent chronic tissue reaction around an implant.119−123In vivo microscopy has demonstrated that tissue strain surrounding the implant remains hours after insertion.13 Release in frictional tension between the tissue and the implant due to edema, inflammation swelling, or impaired blood flow induced change in intracranial pressure likely contributes to the tissue strain.124 Furthermore, in vitro studies have shown that shear strain on astrocytes and neurons leads to loss of neurites and cell death.125 Stretch-induced injury of brain tissue has been shown to activate the calcium-dependent extracellular signal-regulated protein (ERK) pathway through increased extracellular adenosine triphosphate (ATP) and P2 purinergic receptor signaling in astrocytes.126 The ERK in turn has been shown to mediate the increase of the pro-inflammatory cytokine IL-1β.65 This can lead to perpetual inflammation that decreases the signal strength in the tissue microenvironment surrounding the implant over time.
+
+
+## Transition to Chronic Foreign Body Response
+
+Interestingly, removal of the electrode following insertion in a “stab wound” minimally impacts glial activation and neuronal degeneration.18 Nevertheless, careful examination of the stab wound site shows some chronic structural tissue changes from the acute insertion injury.18,127 In fact, evidence of stab wounds has been observed up to 71 months after insertion and immediate removal of a mapping probe in human deep brain stimulation (DBS) patients.128 Remarkably, studies with slowly dissolving implants have demonstrated that tissue regeneration and neural repopulation via progenitor cells can occur following the activation of the reactive tissue response.15 Interestingly, while neural progenitor cells are observed around stiff microwire implants, they do not repopulate the injured area as neurons.15 These findings suggest that the presence of the implanted devices may perpetuate a reactive tissue response, and the removal of the device not only reduces pro-inflammatory and pro-apoptotic signaling but also allows for regeneration and healing.
+
+The generation of cytokines and chemokines are the hallmark of a chronic inflammatory response. Cytokine production can begin to occur as early as 1 day; for example, acute inflammation at 0–3 days can include TNFα, IL-1β, and IL-6 while early chronic tissue response (3–7 days) may include IL-10, TGF-β, and PDGF. These specific cytokines and growth factors are also implicated in traumatic brain injury.129 Continuous expression of inflammatory cytokines such as IL-1β leads to continuous BBB leakage.130 Interestingly, continuous IL-1β expression, infiltration of leukocytes, and BBB leakage in vivo are not sufficient alone in causing neurotoxicity or neurodegeneration.130−133 Increases in IL-1β activation likely lower the threshold toward neurotoxicity and magnify the neurodegeneration response as observed when ischemia and excitotoxicity injuries were combined with increased IL-1β.134,135
+
+The increase of IL-1β upregulates MMP-9 especially in macrophages.86 MMP-9 has been observed to increase following implantation over the first 2 weeks, before declining by 4 weeks and becoming almost undetectable by 8 weeks.86 Upregulation of MMP-9 leads to the degradation of the extracellular matrix and gap junction proteins and loss of junctional interaction between pericytes and endothelial cells at the endothelial tight junctions.136−138 This leads to increased vascular leakage and cell migration along the BBB to create new blood vessels. However, knocking out MMP-9 also leads to increased levels of IL-1β and chronic loss of the BBB tight junction indicating that MMP-9 activity degrading the extracellular matrix around the injured BBB is required for the repair of the BBB and resolution of the insertion injury induced chronic inflammatory tissue response.86
+
+
+## Steric Blockade
+
+For implanted devices with large feature sizes, steric blockade of both membrane bound signaling molecules and soluble signals, including growth factors, may reduce neural survival signaling by decreasing neuronal input signals and ultimately leading to apoptosis. A clear example of this phenomenon was demonstrated by Korsching and Thoenen.139 They showed that removing cells that secrete neural growth factors (NGFs) resulted in apoptosis of the neurons that would normally innervate those cells. Further studies in developmental neuroscience showed that neurons naturally compete for growth factors during embryonic development140 and more than 50% of the neurons undergo apoptosis during this development phase.141,142 Knocking-out the ability for neurons to undergo apoptosis from NGF competition results in perinatal death characterized by an enlarged and malformed cerebrum.141 This emphasizes the importance of apoptosis in neurons and demonstrates that there is a relatively small window for maintaining neural health, which may be disrupted by an implanted electrode. The implantation of a device severs membrane bound signaling molecules and impedes diffusion of the pro-survival growth factors. The combination of decreased pro-survival growth factor signaling and elevated pro-inflammatory cytokines can drive nearby neurons toward apoptosis. Loss of neurons in the microenvironment surrounding the implanted device in turn attenuates the recorded signal by requiring signaling molecules or ions to diffuse further in order to reach the active sampling area of the implanted devices.
+
+
+## Roadmap of Strategies to Improve Signal Sensitivity
+
+Detailed cause and effect relationships, as well as cellular level and molecular level mechanisms, behind sensing variability and chronic signal degradation are still poorly understood. However, a growing number of research studies point to intervention strategies that target the reduction of the initial BBB injury, attenuation of inflammation, and enhancement of neuronal survival. The following sections outline a roadmap of promising strategies for improving signal sensitivity and longevity and are not intended to be a comprehensive history of the development of neural technologies (see Sommakia et al.143 for a more comprehensive review on neural technology development).
+
+
+## Neurovascular Mapping
+
+Two-photon microscopy and two-photon endoscopy is one approach being explored to generate a three-dimensional neurovascular map to guide device insertion away from major vascular structures. Naturally, the density of neurons, glia, and vasculature vary greatly between brain regions and depth, which need to also be considered when using this technique. In the near future, it may be necessary to not only customize technology for specific applications and brain regions, but also customize technology for each patient. For example, vascular organizations differ between patients, and one strategy is to develop patient specific vascular maps in order to minimize intracortical hemorrhage induced inflammatory tissue response and electrode failure.41 In recent years, advances in dye, lasers, photomultiplier tubes, lenses, detectors, and image processing techniques have enabled greater imaging depths,144 while advances in packaging and miniaturization bring us closer to employing multiphoton diagnostic tools in clinical settings145 (Figure 7). An emerging alternative is optical coherence tomography, which has demonstrated great promise for subcellular resolution three-dimensional vascular maps.146 This in vivo imaging technique employs an interferometric technique using near-infrared light to image tissue morphology and is an economical alternative to microvascular mapping using multiphoton microscopy.
+
+Three-dimensional blood–brain barrier mapping with Texas-Red dye down to ∼1 mm below the surface of the brain in Sprague–Dawley rat cortex using a previously established method.41 (a) Maximal intensity Z-stack projections show the vascular network at and below the surface of the brain. (b) Mean intensity Z-stack heatmaps highlight large blood vessels and the depth penetration path. (c) Three-dimensional reconstruction side view of the vascular network in the cortex. Major blood vessels are highlighted in red. Scale bar = 100 μm.
+
+Three-dimensional blood–brain barrier mapping with Texas-Red dye down to ∼1 mm below the surface of the brain in Sprague–Dawley rat cortex using a previously established method.41 (a) Maximal intensity Z-stack projections show the vascular network at and below the surface of the brain. (b) Mean intensity Z-stack heatmaps highlight large blood vessels and the depth penetration path. (c) Three-dimensional reconstruction side view of the vascular network in the cortex. Major blood vessels are highlighted in red. Scale bar = 100 μm.
+
+
+## Flexibility and Softness
+
+As discussed earlier, mechanical strain on the tissue caused by the material softness mismatch between the implant and the brain leads to the upregulation of pro-inflammatory cytokines. Therefore, flexible devices are hypothesized to reduce chronic inflammatory tissue response by reducing chronic tissue strain and thereby improving tissue integration. A key distinction is the difference between flexibility and softness. From a materials perspective, there are three strategies to improve the flexibility (or compliance) of an electrode: (i) reduce the cross-sectional area or change the geometry of the device; (ii) increase the length of the device; (iii) reduce the elastic modulus of the electrode material. As such, the compliance of a device follows the formulas;12345where k is stiffness, kc is compliance, l is the device length, A is the cross sectional area, E is the elastic modulus, w is the width of a planar device, t is the thickness of a planar device, do is the outer diameter of a cylindrical device, and di is the inner diameter of a cylindrical device. Therefore, it is possible to create a stiff device (stiffness = 1/compliance) even when using a low elastic modulus material if the cross-sectional dimensions are large. Similarly, it is also possible to create a very flexible device with high elastic modulus materials if the critical dimensions are very small. The important difference is understanding that the elastic modulus is a property of the material, while the stiffness or compliance of the device is a property of the structure. In general, it is not practical to increase the length of the device in order to increase its flexibility because the target implantation location is fixed. One practical approach to increase the length of the device has been to create a “meandering” or sinusoidal planar design that weaves back and forth.147
+
+Flexible devices however create challenges for minimally damaging insertions. During implantation, ultracompliant devices tend to buckle before penetrating the pia mater or deflect while being directed to the target area. Several insertion methods for relatively stiff functional polymer devices, such as parylene (3–5 GPa) and polyimide (2.5–15 GPa), have been developed with varying trade-offs such as restricting the design of the device, restricting electrical properties, limiting its functionality, increasing insertion footprint, causing postinsertion tissue compression due to polymer water adsorption, or negating its flexibility.148−153
+
+However, as engineers continue to push the limits of flexible implantable devices, challenges continue to persist for brain implantation of ultracompliant devices, such as implants made from polydimethylsiloxane (PDMS) devices (1–5 MPa).154 These ultracompliant PDMS implants have been inserted into the brain using a shuttle with a charged self-assembled monolayer.72 This surface modification applied a hydrophilic charge to weaken hydrophobic adhesion when wet to enable the removal of the stiff shuttle without explanting the soft polymer device. Electrodes made from ultracompliant architectures have also been implanted ensheathed in microfabricated dissolvable insertion shuttles.15,147 With advances in microfabrication and polymer chemistry, many other methods have been developed for the insertion of ultracompliant implantable sensors (see Kozai et al.,15 Kozai and Kipke,72 and Sommakia et al.143 for brief discussions on other approaches).
+
+
+## Size
+
+Reducing the critical dimension of implantable devices provides a number of advantages.17 While reducing the critical dimensions and reducing the elastic modulus both increase the flexibility of the device (see above), they are likely to impact tissue integration differently. Smaller devices are likely to reduce the impact of tissue displacement, changes in pressure on the tissue, and steric blockage of signaling molecules caused by the implanted device volume and vasogenic edema resulting from insertion as previously described, which may affect the short- and long-term tissue responses.21,155,156 The decreased device volume lowers the mechanical strain on the tissue due to implantation compared with that of larger devices (Figure 6c,d). This decreased strain can in turn reduce the pressure on transmembrane channels and pumps as well as reduce the inflammatory tissue response, both of which would collectively have an adverse effect on normal brain function. As such, it has been shown that electrodes with subcellular sized cross-sectional dimensions drastically improve electrophysiology recording performance.17
+
+However, as the size of the device decreases, the yield strength decreases making the material more prone to mechanical failure.157 Larger devices may still be susceptible to this material failure mode if they incorporate ultrasmall substructures such as for the electrical traces.157 For flexible polymer devices, two common challenges are the delamination and leakage of insulation layers, and the brittleness of the electrical traces, which fail during handling and postimplantation swelling.158−160 Therefore, it is critical to develop materials that are durable at subcellular dimensions.148,161,162 These factors are often entangled and relatively difficult to examine or quantify independently from other failure modes. For example, to compensate for the handling requirements of a low elastic modulus material and fragility of ultrasmall electrical traces, the cross-sectional area of the devices are often increased. The increased cross-sectional area negates the flexibility gained by the decreased elastic modulus (see eqs 1–5) and leads to additional problems such as greater insertion injury, increased volumetric tissue displacement induced strain, and greater steric blockade of signaling molecules. Similarly, some polymers expand following hydration, which leads to not only increased cross-sectional area and volume but additionally decreased dielectric properties of the insulation.160,163
+
+
+## Shape
+
+Early evidence suggests that stiff, sharp tipped, and straight devices should be inserted relatively fast but under control for a minimally damaging insertion.47 Slow insertions through the dura or pia matter can cause tissue compression prior to penetration causing loss of perfusion, tissue strain, and the rupture of vasculature. Fast insertion through the dura or pia matter can cause penetration before the tissue has a chance to compress; however very fast insertions may lead to traumatic injury to the nearby tissue. On the other hand, after penetration, slow insertions give the implantable devices a chance to nudge vasculature aside without penetrating through it. Furthermore, while sharper tapered tips may be more mechanically fragile, they can reduce insertion related damage by allowing implantation without tissue compression during pial penetration. Alternatively, “open-architecture” or “lattice-style” probes with reduced volume and surface area also reduce the tissue response even when the initial insertion injury is identical to a solid substrate design,155 although additional research is needed to determine their impact on signal recording.155,156 Nevertheless, carbon fiber electrodes with reduced surface area and substrate volume with a blunt tip shape have significantly improved functional recording performance to traditional microfabricated electrodes.17 Lastly, surface roughness, porosity, or texture are also physical properties hypothesized to improve tissue integration.164
+
+
+## Biological Intervention Strategies
+
+Emerging studies focus on biomimetic or pharmaceutical approaches to improve long-term tissue integration. These approaches aim to use soluble and surface bound biological molecules or pharmaceutical drugs to blur the line between biology and machine fabricated technology. Overall, there are two biomolecular approaches for improving tissue integration: (i) releasing soluble cues that reduce the inflammatory tissue response, attract neural processes, or improve neural survivability; (ii) covalently bound bioactive surface molecules to camouflage the device.
+
+
+## Drug and Gene Delivery
+
+Passive diffusion and controlled drug release systems have been explored for reducing the inflammatory tissue response around implanted devices to improve signal sensitivity and longevity, such as minocycline and flavopiridol.165,166 Dexamethasone, an anti-inflammatory and immunosuppessant glucocorticoid, has also been shown to decrease gliosis and ischemia caused by device implantation. Both systematic treatment with dexamethasone and device coating with dexamethasone have been effective.167−170 As such, microfabricated silicon electrodes have been coated with polymer layers that release anti-inflammatory agents.16,88,129,169,170 Dexamethasone has also proven to be effective for retrodialysis. Rather than relying on controlled-release polymers for agent delivery,170 during microdialysis, dexamethasone is added to the perfusion fluid with excellent control over the concentration, delivery time, and delivery duration. In terms of device implantation in the brain, dexamethasone by retrodialysis significantly inhibited gliosis and ischemia.171 Studies using this immunosuppressant show that dexamethasone may ameliorate the physical and behavioral deficits by reducing swelling along with apoptosis in the brain, thus limiting the secondary damage after a traumatic brain injury. There are a variety of proposed mechanisms to explain the anti-inflammatory and immunosuppressive effects of dexamethasone; however additional studies are currently being pursued. In general it is known that steroid medication weakens the immune system. There is a long list of side effects that occur with these drugs including problems with vision, severe depression, pancreatitis, and high blood pressure.172 These symptoms usually arise with oral delivery when the drugs are taken over an extended period of time. To date, dexamethasone has not been used clinically with neuroprosthetic probes as a coating, so no information is available about the side effects in this type of system. Additional studies will need to evaluate use of dexamethasone in this capacity before these drugs can be “commonly” used for preventing gliosis at the probe interface. Lastly, implantable devices offer a convenient platform not only for drug delivery but also for gene delivery.173 For example, cochlear implants were used to transduce DNA genes for the expression of brain-derived neurotrophic factor (BDNF) by electroporation. The expression of BDNF, in turn enhanced the regeneration of spiral ganglion neurites. Other methods of passive and controlled local drug delivery systems are also being explored as pharmaceutical intervention strategies (see also ref (174) for a review on controlled drug delivery methods).
+
+
+## Biomimetic Coatings
+
+Although reducing device size reduces overall BBB disruption, tissue strain, and inflammatory tissue response, it does not eliminate glial activation (Figure 2a). Many groups have investigated different methods of improving the performance of the chronic neural-implant interface by modifying the surface chemistry of these implants using novel biomaterial designs. Laminin and laminin peptides have been immobilized on the implantable neural device surface with the intention of encouraging cell attachment and growth.175−178 NCAM (CD56), Ncadherin, and L1CAM (CD171) are glycoproteins on cell surfaces involved in neuronal survival and growth.179,180 Surface immobilized neural adhesion molecule L1CAM has been demonstrated in vivo to promote neurite outgrowth and neuronal survival around chronically implanted microelectrodes and at the same time to reduce glial reactivity.181 These early results suggest that targeting neural survival may be more beneficial than only reducing glial activation.
+
+There has also been an increasing appreciation for reducing protein adsorption on the surface of implantable neural microelectrodes.17 It is thought that coatings which prevent blood plasma molecule adsorption minimize perpetuation of the inflammatory tissue response, which in turn reduces the chronic tissue response. Several studies have employed hydrophilic polymers such as poly(ethylene glycol) (PEG) or poly(vinyl alcohol) to deposit a nonfouling coating on the surface of neural electrodes.17,182 Reduced protein adsorption has been found as a result of PEG coating as indicated by electrode impedance spectroscopy;183 however, soluble PEG in the brain still needs to be carefully evaluated for adverse effects. One study showed improved neuronal density and reduced gliosis after 2 and 4 weeks by PEG based coating, but the effect disappeared at 6 weeks, pointing out the critical longevity issue of such nonfouling coatings.184 Covalent immobilization of PEG onto devices may be one approach to mitigate side effects.17 In these ways, bioactive coatings may reduce inflammation and improve tissue integration, which can in turn improve the signal sensitivity of the device.
+
+
+## Caspase-1
+
+Caspase-1 activation is an early event detected in neuronal cell death associated with ischemia and BBB injury as well as the main activator of pro-inflammatory cytokine IL-1β in chronic neurodegeneration.185,186 A previous study has showed that loss of perfusion in vivo in multiple adjacent capillaries around an implanted electrode can occur, which can lead to ischemic microenvironments around the implant.13 Inhibition of caspase-1 activity can slow neurodegeneration caused by a diverse set of circumstances including Huntington’s disease, amyotrophic lateral sclerosis, traumatic brain injury, and ischemic stroke.187−194 More recently, knocking out caspase-1 was shown to dramatically improve chronic implant performance.21 Current focuses are being evaluated in a number of promising pharmacologic interventions for the attenuation of chronic inflammatory tissue response and the treatment of neurodegeneration around implanted biosensors including the inhibition of caspase- 1.195−201
+
+
+## Conclusion
+
+Disease and injury to the CNS can be extremely debilitating for patients and costly for their caregivers. Recording-based and sampling devices hold great promise for the treatment or monitoring of a wide variety of disorders and for neuroscience research studies. However, the long-term performance of these devices in the CNS is limited by the insertion injury and reactive tissue response (Figure 8). Local administration of anti-inflammatory drugs or bioactive coatings has the capacity to manage the cellular and tissue responses around these devices and therefore holds great promise to improve both the long- and short-term stability of implants. While the fundamental brain tissue response to penetrating implants is caused by complex multimodal pathways, emerging studies have begun to uncover these pathways at the molecular and cellular level (Figure 8). Understanding the mechanisms involved in the inflammatory and immunological tissue reactions upon device implantation into the brain will require the attention and collaboration of experts in the fields of biomaterial science, biology, analytical chemistry, neuroscience, engineering, and medicine.
+
+Simplified schematic representation of acute and chronic phases of the reactive tissue response following implantation of neural devices into brain tissue. The primary injury gives rise to a multitude of events including mechanical strain, blood–brain barrier disruption, inflammation, and cell membrane disruption. This primary damage initiates a series of biochemical signaling cascades, which target a variety of cell types and are responsible for dysfunction and neurodegeneration. Complex feedforward and feedback relationships between inflammation (green), BBB leakage (violet), and mechanical strain (orange) can perpetuate the acute response to a chronic response.
+
+Simplified schematic representation of acute and chronic phases of the reactive tissue response following implantation of neural devices into brain tissue. The primary injury gives rise to a multitude of events including mechanical strain, blood–brain barrier disruption, inflammation, and cell membrane disruption. This primary damage initiates a series of biochemical signaling cascades, which target a variety of cell types and are responsible for dysfunction and neurodegeneration. Complex feedforward and feedback relationships between inflammation (green), BBB leakage (violet), and mechanical strain (orange) can perpetuate the acute response to a chronic response.
+
+Parylene/carbon fiber and microdialysis in vivo multiphoton imaging in B6.129-Cx3Cr1-GFP/J was financially supported by NIH R01 (Grant 5R01NS062019) and NIH R21 (Grant NS086107). Texas-Red labeled Sprague–Dawley BBB mapping was financially supported by NIH K01 (Grant 1K01NS066131).
+
+The authors declare no competing financial interest.
+
+
+## Acknowledgments
+
+The authors would like to thank Patrick A Cody and I. Mitch Taylor for assistance editing the manuscript and providing critical feedback.
+
+
+## References
+
+Dopamine operates as a subsecond modulator of food seeking
+
+Synaptic activity regulates interstitial fluid amyloid-beta levels in vivo
+
+High-performance neuroprosthetic control by an individual with tetraplegia
+
+Declines in stimulated striatal dopamine release over the first 32 h following microdialysis probe insertion: Generalization across releasing mechanisms
+
+Methamphetamine-stimulated striatal dopamine release declines rapidly over time following microdialysis probe insertion
+
+The effects of four days of continuous striatal microdialysis on indices of dopamine and serotonin neurotransmission in rats
+
+Comprehensive chronic laminar single-unit, multi-unit, and local field potential recording performance with planar single shank electrode arrays
+
+Chronic microsensors for longitudinal, subsecond dopamine detection in behaving animals
+
+Failure mode analysis of silicon-based intracortical microelectrode arrays in non-human primates
+
+Neural control of cursor trajectory and click by a human with tetraplegia 1000 days after implant of an intracortical microelectrode array
+
+Recording from the same neurons chronically in motor cortex
+
+Implantable microelectrode arrays for simultaneous electrophysiological and neurochemical recordings
+
+In vivo two photon microscopy reveals immediate microglial reaction to implantation of microelectrode through extension of processes
+
+Dynamics of microglial activation: a confocal time-lapse analysis in hippocampal slices
+
+Chronic tissue response to carboxymethyl cellulose based dissolvable insertion needle for ultra-small neural probes
+
+Brain responses to micro-machined silicon devices
+
+Ultrasmall implantable composite microelectrodes with bioactive surfaces for chronic neural interfaces
+
+Neuronal cell loss accompanies the brain tissue response to chronically implanted silicon microelectrode arrays
+
+Complex impedance spectroscopy for monitoring tissue responses to inserted neural implants
+
+Diffusion barriers evoked in the rat cortex by reactive astrogliosis
+
+Effects of caspase-1 knockout on chronic neural recording quality and longevity: Insight into cellular and molecular mechanisms of the reactive tissue response
+
+Implanted neural electrodes cause chronic, local inflammation that is correlated with local neurodegeneration
+
+Temporal profile of release of interleukin-1beta in neurotrauma
+
+Detection of interleukin-1 and interleukin-6 in adult rat brain, following mechanical injury, by in vivo microdialysis: evidence of a role for microglia in cytokine production
+
+Cellular reactions to implantation of a microdialysis tube in the rat hippocampus
+
+Comparison of the brain penetration injury associated with microdialysis and voltammetry
+
+GLIA modulates synaptic transmission
+
+A glia-derived acetylcholine-binding protein that modulates synaptic transmission
+
+Astrocytes contribute to gamma oscillations and recognition memory
+
+Norepinephrine controls astroglial responsiveness to local circuit activity
+
+Forebrain engraftment by human glial progenitor cells enhances synaptic plasticity and learning in adult mice
+
+Effects of aging and sensory loss on glial cells in mouse visual and auditory cortices
+
+A role for microglia in synaptic plasticity?
+
+Microglial interactions with synapses are modulated by visual experience
+
+Spatiotemporal pH dynamics following insertion of neural microelectrode arrays
+
+Long-term neural recording characteristics of wire microelectrode arrays implanted in cerebral cortex
+
+Chronic recording capability of the Utah Intracortical Electrode Array in cat sensory cortex
+
+The reaction of the cerebral cortex to chronically implanted plastic needles
+
+Neural interface dynamics following insertion of hydrous iridium oxide microelectrode arrays
+
+Time Course of Blood Brain Barrier Disruption Due to Microelectrode Insertion into Cerebral Cortex
+
+Reduction of neurovascular damage resulting from microelectrode insertion into the cerebral cortex using in vivo two-photon mapping
+
+Reduction of neurovascular damage resulting from microelectrode insertion into cerebral cortex using in vivo two-photon mapping
+
+Comprehensive characterization and failure modes of tungsten microwire arrays in chronic neural implants
+
+Comprehensive analysis of tissue preservation and recording quality from chronic multielectrode implants
+
+The impact of chronic blood-brain barrier breach on intracortical electrode function
+
+In vivo performance of a microelectrode neural probe with integrated drug delivery
+
+Effects of insertion conditions on tissue strain and vascular damage during neuroprosthetic device insertion
+
+Activated protein C therapy slows ALS-like disease in mice by transcriptionally inhibiting SOD1 in motor neurons and microglia cells
+
+ALS-causing SOD1 mutants generate vascular changes prior to motor neuron degeneration
+
+Neuronal death in the hippocampus is promoted by plasmin-catalyzed degradation of laminin
+
+Thrombin, a mediator of neurotoxicity and memory impairment
+
+Thrombin mediates severe neurovascular injury during ischemia
+
+Plasma-deposited tetraglyme surfaces greatly reduce total blood protein adsorption, contact activation, platelet adhesion, platelet procoagulant activity, and in vitro thrombus deposition
+
+Albumin and immunoglobulin in plasma and cerebrospinal fluid, and blood-cerebrospinal fluid barrier function in patients with dementia of Alzheimer type and multi-infarct dementia
+
+A comparison of the tissue response to chronically implanted Parylene-C-coated and uncoated planar silicon microelectrode arrays in rat cortex
+
+Complement components of the innate immune system in health and disease in the CNS
+
+Cellular and molecular mechanisms of glial scarring and progressive cavitation: In vivo and in vitro analysis of inflammation-induced secondary injury after CNS trauma
+
+Fibrin deposition accelerates neurovascular damage and neuroinflammation in mouse models of Alzheimer’s disease
+
+Body iron stores and early neurologic deterioration in acute cerebral infarction
+
+Interactions of Oxidative Stress and Neurovascular Inflammation in the Pathogenesis of Traumatic Brain Injury
+
+TGF-beta receptor-mediated albumin uptake into astrocytes is involved in neocortical epileptogenesis
+
+Albumin causes increased myosin light chain kinase expression in astrocytes via p38 mitogen-activated protein kinase
+
+Regulation of endothelial cell gap formation and barrier dysfunction: role of myosin light chain phosphorylation
+
+Myosin light chain kinase in microvascular endothelial barrier function
+
+Albumin activates astrocytes and microglia through mitogen-activated protein kinase pathways
+
+Albumin elicits calcium signals from astrocytes in brain slices from neonatal rat cortex
+
+Plasma albumin is a potent trigger of calcium signals and DNA synthesis in astrocytes
+
+Peripheral injections of Freund’s adjuvant in mice provoke leakage of serum proteins through the blood-brain barrier without inducing reactive gliosis
+
+Sequestering of immunoglobulins by astrocytes after cortical lesion and homografting of fetal cortex
+
+Injury-related spinal cord astrocytes are immunoglobulin-positive (IgM and/or IgG) at different time periods in the regenerative process
+
+The fibrin-derived gamma377–395 peptide inhibits microglia activation and suppresses relapsing paralysis in central nervous system autoimmune disease
+
+Insertion shuttle with carboxyl terminated self-assembled monolayer coatings for implanting flexible polymer neural probes in the brain
+
+Characterization of microglial attachment and cytokine release on biomaterials of differing surface chemistry
+
+Early and Rapid De-Novo Synthesis of Alzheimer Beta-A4-Amyloid Precursor Protein (App) in Activated Microglia
+
+Chemokine expression by glial cells directs leukocytes to sites of axonal injury in the CNS
+
+The Impact of Microglia-Derived Cytokines Upon Gliosis in the Cns
+
+Phagocytic Microglia Release Cytokines and Cytotoxins That Regulate the Survival of Astrocytes and Neurons in Culture
+
+Tumor-Necrosis-Factor-Alpha up-Regulates Human Microglial Cell Production of Interleukin-10 in-Vitro
+
+Microglial production of TNF-alpha is induced by activated T lymphocytes - Involvement of VLA-4 and inhibition by interferon beta-1b
+
+Neurotrophin secretion from cultured microglia
+
+Brain microglia macrophages express neurotrophins that selectively regulate microglial proliferation and function
+
+The astrocytic scar as an impediment to regeneration in the central nervous system
+
+Factors Influencing the Biocompatibility of Insertable Silicon Microshafts in Cerebral-Cortex
+
+Relationship between intracortical electrode design and chronic recording function
+
+Functional role of interleukin 1 beta (IL-1 beta) in IL-1 beta-converting enzyme-mediated apoptosis
+
+Matrix metalloproteinase-9 deficiency leads to prolonged foreign body response in the brain associated with increased IL-1beta levels and leakage of the blood-brain barrier
+
+The upregulation of specific interleukin (IL) receptor antagonists and paradoxical enhancement of neuronal apoptosis due to electrode induced strain and brain micromotion
+
+Impact of microdialysis probes on vasculature and dopamine in the rat striatum: a combined fluorescence and voltammetric study
+
+Pericytes regulate the blood-brain barrier
+
+Pericytes are required for blood-brain barrier integrity during embryogenesis
+
+Pericytes control key neurovascular functions and neuronal phenotype in the adult brain and during brain aging
+
+Bidirectional control of CNS capillary diameter by pericytes
+
+Pericytes. Morphofunction, interactions and pathology in a quiescent and activated mesenchymal cell niche
+
+Brain macrophages: On the role of pericytes and perivascular cells
+
+Pericyte production of cell-associated VEGF is differentiation-dependent and is associated with endothelial survival
+
+Vascular smooth muscle cells and pericytes express MMP-1, MMP-9, TIMP-1 and type I procollagen in inflammatory bowel disease
+
+Brain pericytes among cells constituting the blood-brain barrier are highly sensitive to tumor necrosis factor-alpha, releasing matrix metalloproteinase-9 and migrating in vitro
+
+Pericyte recruitment during vasculogenic tube assembly stimulates endothelial basement membrane matrix formation
+
+Endothelium-specific ablation of PDGFB leads to pericyte loss and glomerular, cardiac and placental abnormalities
+
+Endothelium-specific platelet-derived growth factor-B ablation mimics diabetic retinopathy
+
+Activation of PKC-delta and SHP-1 by hyperglycemia causes vascular cell apoptosis and diabetic retinopathy
+
+Pericyte-specific expression of PDGF beta receptor in mouse models with normal and deficient PDGF beta receptor signaling
+
+Pericyte loss influences Alzheimer-like neurodegeneration in mice
+
+T lymphocyte adhesion to human brain pericytes is mediated via very late antigen-4/vascular cell adhesion molecule-1 interactions
+
+Cell fusion contributes to pericyte formation after stroke
+
+The bone marrow constitutes a reservoir of pericyte progenitors
+
+Angiogenic recruitment of pericytes from bone marrow after stroke
+
+Central nervous system pericytes in health and disease
+
+Neurovascular pathways to neurodegeneration in Alzheimer’s disease and other disorders
+
+Alzheimer’s dementia begins as a disease of small blood vessels, damaged by oxidative-induced inflammation and dysregulated amyloid metabolism: implications for early detection and therapy
+
+Neurovascular regulation in the normal brain and in Alzheimer’s disease
+
+The smallest stroke: Occlusion of one penetrating vessel leads to infarction and a cognitive deficit
+
+Occlusion of cortical ascending venules causes blood flow decreases, reversals in flow direction, and vessel dilation in upstream capillaries
+
+Two-photon imaging of stroke onset in vivo reveals that NMDA-receptor independent ischemic depolarization is the major cause of rapid reversible damage to dendrites and spines
+
+Repeated longitudinal in vivo imaging of neuro-glio-vascular unit at the peripheral boundary of ischemia in mouse cerebral cortex
+
+Cortical microhemorrhages cause local inflammation but do not trigger widespread dendrite degeneration
+
+Physiological release of striatal acetylcholine in vivo: modulation by D1 and D2 dopamine receptor subtypes
+
+Characterization of the in vivo release of dopamine as recorded by different types of intracerebral microdialysis probes
+
+Brain micromotion around implants in the rodent somatosensory cortex
+
+A finite-element model of the mechanical effects of implantable microelectrodes in the cerebral cortex
+
+Biomechanical analysis of silicon microelectrode-induced strain in the brain
+
+Factors influencing the biocompatibility of insertable silicon microshafts in cerebral cortex
+
+The brain tissue response to implanted silicon microelectrode arrays is increased when the device is tethered to the skull
+
+Fixed negative charge and the Donnan effect: A description of the driving forces associated with brain tissue swelling and oedema
+
+High rate shear strain of three-dimensional neural cell cultures: a new in vitro traumatic brain injury model
+
+Activation of extracellular signal-regulated kinase by stretch-induced injury in astrocytes involves extracellular ATP and P2 purinergic receptors
+
+Stab injury and device implantation within the brain results in inversely multiphasic neuroinflammatory and neurodegenerative responses
+
+Postmortem analysis following 71 months of deep brain stimulation of the subthalamic nucleus for Parkinson disease
+
+Dexamethasone-coated neural probes elicit attenuated inflammatory response and neuronal loss compared to uncoated neural probes
+
+Chronic interleukin-1beta expression in mouse brain leads to leukocyte infiltration and neutrophil-independent blood brain barrier permeability without overt neurodegeneration
+
+Interleukin-1 and neuronal injury: Mechanisms, modification, and therapeutic potential
+
+Interleukin-1beta exacerbates and interleukin-1 receptor antagonist attenuates neuronal injury and microglial activation after excitotoxic damage in organotypic hippocampal slice cultures
+
+Reversible demyelination, blood-brain barrier breakdown, and pronounced neutrophil recruitment induced by chronic IL-1 expression in the brain
+
+Interleukin-1 and neuronal injury
+
+Neurodegenerative actions of interleukin-1 in the rat brain are mediated through increases in seizure activity
+
+Matrix metalloproteinases: Inflammatory regulators of cell behaviors in vascular formation and remodeling
+
+Matrix metalloproteinase-mediated disruption of tight junction proteins in cerebral vessels is reversed by synthetic matrix metalloproteinase inhibitor in focal ischemia in rat
+
+NG2 proteoglycan promotes tumor vascularization via integrin-dependent effects on pericyte function
+
+Nerve growth factor in sympathetic ganglia and corresponding target organs of the rat: correlation with density of sympathetic innervation
+
+Alterations in synaptic strength preceding axon withdrawal
+
+Reduced apoptosis and cytochrome c-mediated caspase activation in mice lacking caspase 9
+
+Altered cytokine export and apoptosis in mice deficient in interleukin-1 beta converting enzyme
+
+Materials approaches for modulating neural tissue responses to implanted microelectrodes through mechanical and biochemical means
+
+In vivo two-photon microscopy to 1.6-mm depth in mouse cortex
+
+Compact and flexible raster scanning multiphoton endoscope capable of imaging unstained tissue
+
+Optical coherence tomography
+
+An ultra-compliant, scalable neural probes with molded biodissolvable delivery vehicle
+
+Tissue-compliant neural implants from microfabricated carbon nanotube multilayer composite
+
+3D Parylene sheath neural probe for chronic recordings
+
+Removable silicon insertion stiffeners for neural probes using polyethylene glycol as a biodissolvable adhesive
+
+Parylene flexible neural probes integrated with microfluidic channels
+
+3D flexible multichannel neural probe array
+
+A 3D flexible parylene probe array for multichannel neural recording
+
+Flexible and stretchable micro-electrodes for in vitro and in vivo neural interfaces
+
+Neural probe design for reduced tissue encapsulation in CNS
+
+Reducing surface area while maintaining implant penetrating profile lowers the brain foreign body response to chronically implanted planar silicon microelectrode arrays
+
+Mechanical failure modes of chronically implanted planar silicon-based neural probes for laminar recording
+
+Thiol-ene/acrylate substrates for softening intracortical electrodes
+
+Annealing effects on flexible multi-layered parylene-based sensors
+
+Fabrication of Responsive, Softening Neural Interfaces
+
+Concurrent recordings of bladder afferents from multiple nerves using a microfabricated PDMS microchannel electrode array
+
+Stretchable nanoparticle conductors with self-organized conductive pathways
+
+Mechanically adaptive intracortical implants improve the proximity of neuronal cell bodies
+
+Biomaterials: Where we have been and where we are going
+
+Flavopiridol reduces the impedance of neural prostheses in vivo without affecting recording quality
+
+Minocycline increases quality and longevity of chronic neural recordings
+
+Dexamethasone treatment reduces astroglia responses to inserted neuroprosthetic devices in rat neocortex
+
+Dexamethasone-coated neural probes elicit attenuated inflammatory response and neuronal loss compared to uncoated neural probes
+
+Controlling cellular reactive responses around neural prosthetic devices using peripheral and local intervention strategies
+
+Evaluation of poly(3,4-ethylenedioxythiophene)/carbon nanotube neural electrode coatings for stimulation in the dorsal root ganglion
+
+Effect of dexamethasone on gliosis, ischemia, and dopamine extraction during microdialysis sampling in brain tissue
+
+Close-Field Electroporation Gene Delivery Using the Cochlear Implant Electrode Array Enhances the Bionic Ear
+
+Nanostructured coatings for improved charge delivery to neurons
+
+Nanoscale laminin coating modulates cortical scarring response around implanted silicon microelectrode arrays
+
+In vivo studies of polypyrrole/peptide coated neural probes
+
+Electrochemical deposition and characterization of poly(3,4-ethylenedioxythiophene) on neural microelectrode arrays
+
+Surface modification of neural recording electrodes with conducting polymer/biomolecule blends
+
+A molecular approach to retinotectal specificity
+
+The neural cell adhesion molecule L1 is distinct from the N-CAM related group of surface antigens BSP-2 and D2
+
+The surface immobilization of the neural adhesion molecule L1 on neural probes and its effect on neuronal density and gliosis at the probe/tissue interface
+
+Poly(vinyl alcohol)/poly(acrylic acid) hydrogel coatings for improving electrode-neural tissue interface
+
+Resistive and reactive changes to the impedance of intracortical microelectrodes can be mitigated with polyethylene glycol under acute in vitro and in vivo settings
+
+[Response to adjuvant therapy with potassium perchlorate in amiodarone-induced thyrotoxicosis: Observations on three cases]
+
+Sequential activation of individual caspases, and of alterations in Bcl-2 proapoptotic signals in a mouse model of Huntington’s disease
+
+Fundamental role of the Rip2/caspase-1 pathway in hypoxia and ischemia-induced neuronal cell death
+
+Role of caspase 1 in neurologic disease
+
+Inhibition of ICE slows ALS in mice
+
+Expression of a dominant negative mutant of interleukin-1 beta converting enzyme in transgenic mice prevents neuronal cell death induced by trophic factor withdrawal and ischemic brain injury
+
+ICE, neuronal apoptosis and neurodegeneration
+
+Attenuation of transient focal cerebral ischemic injury in transgenic mice expressing a mutant ICE inhibitory protein
+
+Inhibition of interleukin 1beta converting enzyme family proteases reduces ischemic and excitotoxic neuronal damage
+
+Transgenic mice expressing a dominant negative mutant interleukin-1beta converting enzyme show resistance to MPTP neurotoxicity
+
+Inhibition of caspase-1 slows disease progression in a mouse model of Huntington’s disease
+
+Minocycline inhibits caspase-1 and caspase-3 expression and delays mortality in a transgenic mouse model of Huntington disease
+
+Methazolamide and melatonin inhibit mitochondrial cytochrome C release and are neuroprotective in experimental models of ischemic injury
+
+The melatonin MT1 receptor axis modulates mutant Huntingtin-mediated toxicity
+
+Minocycline inhibits caspase-independent and -dependent mitochondrial cell death pathways in models of Huntington’s disease
+
+Melatonin inhibits the caspase-1/cytochrome c/caspase-3 cell death pathway, inhibits MT1 receptor loss and delays disease progression in a mouse model of amyotrophic lateral sclerosis
+
+Dipyrone Inhibits Neuronal Cell Death and Diminishes Hypoxic/Ischemic Brain Injury
+
+Minocycline inhibits cytochrome c release and delays progression of amyotrophic lateral sclerosis in mice
+
+Direct evidence for expression of dopamine receptors in astrocytes from basal ganglia
+
+Pharmacological characterization of dopamine transport in cultured rat astrocytes
+
+Dopamine induces Ca2+ signaling in astrocytes through reactive oxygen species generated by monoamine oxidase
+
+Neurotransmitter receptors on microglia
+
+Microglial responses to dopamine in a cell culture model of Parkinson’s disease
+
+Drug-driven AMPA receptor redistribution mimicked by selective dopamine neuron stimulation
+
+Glycine transporter-1 inhibition promotes striatal axon sprouting via NMDA receptors in dopamine neurons
+
+Activated macrophages and microglia induce dopaminergic sprouting in the injured striatum and express brain-derived neurotrophic factor and glial cell line-derived neurotrophic factor
+
+The changing phenotype of microglia from homeostasis to disease
+
+Midbrain dopaminergic neuron fate specification: Of mice and embryonic stem cells
+
+Dysregulation of dopamine transporters via dopamine D2 autoreceptors triggers anomalous dopamine efflux associated with attention-deficit hyperactivity disorder
+
+Dopamine stabilizes tumor blood vessels by up-regulating angiopoietin 1 expression in pericytes and Kruppel-like factor-2 expression in tumor endothelial cells
+
+Identification of the dopamine D3 receptor in oligodendrocyte precursors: potential role in regulating differentiation and myelin formation
+
+Dopamine receptor D3 expressed on CD4+ T cells favors neurodegeneration of dopaminergic neurons during Parkinson’s disease
+
+The neuronal excitatory amino acid transporter EAAC1/EAAT3: Does it represent a major actor at the brain excitatory synapse?
+
+Astrocyte glutamate transport: review of properties, regulation, and physiological functions
+
+Glial and neuronal control of brain blood flow
+
+Glutamate transporters EAAT4 and EAAT5 are expressed in vestibular hair cells and calyx endings
+
+Possible contribution of microglial glutamate receptors to inflammatory response upon neurodegenerative diseases
+
+Modulation of the neuronal glutamate transporter EAAT4 by two interacting proteins
+
+Glutamate uptake
+
+Expression of metabotropic glutamate receptors in rat meningeal and brain microvasculature and choroid plexus
+
+Rat meningeal and brain microvasculature pericytes co-express the vesicular glutamate transporters 2 and 3
+
+Excitotoxic oligodendrocyte death and axonal damage induced by glutamate transporter inhibition
+
+Excitotoxic damage to white matter
+
+Anatomy Cell Biology and Maturation of the Serotonergic System: Neurotrophic Implications for the Actions of Psychotrophic Drugs
+
+Human embryonic stem cell-derived oligodendrocyte progenitor cells express the serotonin receptor and are susceptible to JC virus infection
+
+Serotonin receptors, agonists and antagonists
+
+Serotonin receptors
+
+Activation of serotonin receptors promotes microglial injury-induced motility but attenuates phagocytic activity
+
+Glycogen Synthase Kinase-3 is an intermediate modulator of serotonin neurotransmission
+
+The importance of the endothelium in atherothrombosis and coronary stenting
+
+Multiple microvascular and astroglial 5-hydroxytryptamine receptor subtypes in human brain: molecular and pharmacologic characterization
