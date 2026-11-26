@@ -18,10 +18,10 @@ _Updated 2026-11-26 by `tools/progress.py` — █ done ▒ in progress · missi
 |---|---|---|---|---|---|
 | 🟢 [01 Application & state of the art](01_application/README.md) | `████████████` | 7/7 | 0 | 0 | Valentin (neuroscience / LSE1) |
 | 🟡 [02 Implantable interface (§1)](02_interface/README.md) | `█████▒▒▒▒▒▒·` | 5/12 | 6 | 1 | Defne (materials, fabrication, surgery / LSE2) |
-| 🟡 [03 Electronics (§2)](03_electronics/README.md) | `█▒▒▒▒▒······` | 1/16 | 7 | 8 | Heliya (circuits, power — EE) · Alae (on-chip AI, decoder/encoder, latency — CS) |
-| 🟡 [04 Integration (§3)](04_integration/README.md) | `███▒▒▒······` | 2/7 | 2 | 3 | Heliya (power, link) + Defne (bonding, package, surgery) |
+| 🟡 [03 Electronics (§2)](03_electronics/README.md) | `█████▒▒▒▒···` | 7/16 | 6 | 3 | Heliya (circuits, power — EE) · Alae (on-chip AI, decoder/encoder, latency — CS) |
+| 🟡 [04 Integration (§3)](04_integration/README.md) | `███████▒▒▒▒▒` | 4/7 | 3 | 0 | Heliya (power, link) + Defne (bonding, package, surgery) |
 | 🔴 [06 Figures](06_figures/README.md) | `██··········` | 1/7 | 0 | 6 | everyone (each draws the figures of their section) |
-| **Total** | `████▒▒▒▒····` | **16/49** | 15 | 18 | |
+| **Total** | `██████▒▒▒▒··` | **24/49** | 15 | 10 | |
 <!-- PROGRESS:END -->
 
 ➡️ What is missing, ranked: [`STATUS.md`](STATUS.md) · Choices and open conflicts: [`DECISIONS.md`](DECISIONS.md) · Task board: GitHub **Projects** tab

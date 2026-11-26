@@ -11,10 +11,10 @@ _Updated 2026-11-26 by `tools/progress.py` — █ done ▒ in progress · missi
 |---|---|---|---|---|---|
 | 🟢 [01 Application & state of the art](01_application/README.md) | `████████████` | 7/7 | 0 | 0 | Valentin (neuroscience / LSE1) |
 | 🟡 [02 Implantable interface (§1)](02_interface/README.md) | `█████▒▒▒▒▒▒·` | 5/12 | 6 | 1 | Defne (materials, fabrication, surgery / LSE2) |
-| 🟡 [03 Electronics (§2)](03_electronics/README.md) | `█▒▒▒▒▒······` | 1/16 | 7 | 8 | Heliya (circuits, power — EE) · Alae (on-chip AI, decoder/encoder, latency — CS) |
-| 🟡 [04 Integration (§3)](04_integration/README.md) | `███▒▒▒······` | 2/7 | 2 | 3 | Heliya (power, link) + Defne (bonding, package, surgery) |
+| 🟡 [03 Electronics (§2)](03_electronics/README.md) | `█████▒▒▒▒···` | 7/16 | 6 | 3 | Heliya (circuits, power — EE) · Alae (on-chip AI, decoder/encoder, latency — CS) |
+| 🟡 [04 Integration (§3)](04_integration/README.md) | `███████▒▒▒▒▒` | 4/7 | 3 | 0 | Heliya (power, link) + Defne (bonding, package, surgery) |
 | 🔴 [06 Figures](06_figures/README.md) | `██··········` | 1/7 | 0 | 6 | everyone (each draws the figures of their section) |
-| **Total** | `████▒▒▒▒····` | **16/49** | 15 | 18 | |
+| **Total** | `██████▒▒▒▒··` | **24/49** | 15 | 10 | |
 <!-- PROGRESS:END -->
 
 ## Blockers and next actions
@@ -22,7 +22,7 @@ _Updated 2026-11-26 by `tools/progress.py` — █ done ▒ in progress · missi
 _Initial audit, 2026-11-24._
 
 **Resolve first (design freeze, Fri 28 Nov)** — see `DECISIONS.md`:
-1. **C2 Scope**: motor BCI inside NeuroTact or companion system? (population settled: D-015). **C7** current cap and safety criterion.
+1. ~~**C2 Scope**~~ ✅ motor BCI is part of NeuroTact (D-024); population settled (D-015). **C7** current cap and safety criterion (also sets the compliance voltage). New: **C8** daily vs one-time calibration, **C9** blanking link, **C10** stimulator base chip.
 2. **C1 Pitch** 400 µm (2.8 mm) vs 800 µm (5.6 mm).
 3. **C4 / C5** bonding method; stiffener and buckling for 4 mm shanks.
 
