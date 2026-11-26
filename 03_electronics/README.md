@@ -19,14 +19,14 @@ Legend: `[x]` done · `[ ] 🟡` in progress · `[ ]` missing.
 - [x] Pulse parameters (amplitude, width, frequency, biphasic, timing) → D-005, 2-pager §2
 - [ ] 🟡 Current vs voltage control and why → current drivers stated, justification to write
 - [ ] Stimulator circuit architecture (block diagram): 64 drivers + switch matrix to 256 sites
-- [ ] Compliance voltage from site impedance at 40 µA (TA)
-- [ ] **TA:** safety limits in hardware, independent of the algorithm (max current, charge balance, link loss)
+- [ ] 🟡 Compliance voltage → LSE1 estimate ≥ ±12 V (70–140 kΩ access, 7–14 V at 100 µA), `01_application/lse1/LSE1_Decisions_Full_Explanations_EN.pdf` §3; EE to confirm
+- [ ] 🟡 **TA:** safety limits in hardware → LSE1 proposal: charge cap 10–12 nC/phase per site, 20 nC absolute, duty cycle, disable site if E_mc < −0.6 V (`01_application/lse1/LSE1_Decisions_Full_Explanations_EN.pdf` §5); link loss + EE implementation missing — see C7
 
 ## On-chip intelligence (TA feedback)
 - [ ] Define the NN concretely: inputs, outputs, size, update rate; ops/s and power → must fit the budget
 - [ ] Map TouchSim (peripheral nerve) responses to cortical stimulation patterns; per-patient adaptation
 - [ ] 🟡 Justify encoder on implant vs external (C6); recalibration = stronger argument
-- [ ] Drift: which recorded signal detects it, how stimulation artifacts are handled (blanking?)
+- [ ] 🟡 Drift: physiology + detection signal (evoked response on neighbouring sites, 2–5 ms after pulse, ~2 ms blanking) → `01_application/lse1/LSE1_Decisions_Full_Explanations_EN.pdf` §2; algorithm/circuit side missing
 - [ ] Latency budget per block (*our choices* D8 table has empty cells)
 
 ## Key numbers
