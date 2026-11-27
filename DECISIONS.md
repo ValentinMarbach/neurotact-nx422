@@ -10,7 +10,8 @@ Sources: 2-pager (`deliverables/2-pager/`), *NeuroTact: our choices and why*
 
 | # | Topic | Version A | Version B | To settle by |
 |---|---|---|---|---|
-| C1 | Shank pitch / footprint | 400 µm, 8×8 → 2.8 × 2.8 mm (2-pager, Defne LSE2 answers 20.11) | 800 µm, 8×8 → 5.6 mm, covers thumb + index (Valentin, 12.11; matches "32 drivers per finger" in *our choices*) | team meeting |
+| C1 | Shank pitch / footprint | 400 µm, 8×8 → 2.8 × 2.8 mm (2-pager, Defne LSE2 answers 20.11) | 800 µm, 8×8 → 5.6 mm, covers thumb + index (Valentin, 12.11; matches "32 drivers per finger" in *our choices*) | team meeting. **LSE1 proposal 27.11:** version C = 4 × 16 at 400 µm → 6.0 × 1.2 mm strip along the lip (same mediolateral span, all shanks near 3b, 2× pitch); see `people/valentin/wip/2026-11-27_C1_opening/` |
+| C8 | Craniotomy size (M1 + S1, one opening) | 10 × 5 mm slot (EE integration text, not verified) | ~15 × 15 mm minimum from the layout (calc; stiffener and bone margins are assumptions), final size on patient MRI (LSE1, 27.11) | Valentin + surgeon view; depends on C1 |
 | C2 | Is the motor BCI part of NeuroTact? | Yes: M1 Utah + M1 chip with LFP gate + NN decoder (*our choices*, Decisions 1–3, 7) | No: NeuroTact = S1 probe + electronics + package; motor BCI is a companion system (LSE1 full explanations §1/§6, Defne LSE2 answers Q1) | confirm with Alae: only *our choices* puts the decoder in NeuroTact |
 | C4 | Ribbon-to-ASIC bonding | Flip-chip (2-pager) | ACF bonding (Defne LSE2) | Defne + Heliya |
 | C5 | Stiffener and insertion | PEG over the whole shank except a bare 400 µm tip, stepwise insertion (Defne LSE2 answers, Q7) | Buckling calc says a stiffened section of ~50–70 µm is needed for a 4 mm shank; shorter shanks / shuttle as options (Defne LSE2 questions) | Defne |
