@@ -5,7 +5,7 @@ from the checklists in each section README (click a section to zoom in). The blo
 rewritten by `/status`.
 
 <!-- PROGRESS:START -->
-_Updated 2026-11-26 by `tools/progress.py` — █ done ▒ in progress · missing_
+_Updated 2026-11-27 by `tools/progress.py` — █ done ▒ in progress · missing_
 
 | Section | Progress | Done | In progress | Missing | Owner |
 |---|---|---|---|---|---|
